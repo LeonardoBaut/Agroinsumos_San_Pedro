@@ -1,0 +1,15 @@
+show databases
+use agro_spa_DB
+show colletions
+show collections
+db.productos.find(),pretty()
+db.productos.find().pretty()
+db.productos.deleteOne(id_producto:"001")
+db.productos.deleteOne({id_producto:"001"})
+db.productos.deleteOne(id_producto:"001")
+db.productos.find().pretty()
+use agro_spa_DB
+show collections
+db.productos.find().pretty()
+use agro_spa_DB
+db.favoritos.find().pretty()
