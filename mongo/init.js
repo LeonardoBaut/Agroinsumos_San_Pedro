@@ -27,10 +27,11 @@ db.usuarios.insertOne({
     password : "51234",
 });
 
-db.categorias.insertOne({ nombre: "SEMILLAS", img: "imgs/semillas.jpg" });
-db.categorias.insertOne({ nombre: "FERTILIZANTES", img: "imgs/fertilizantes.jpg" });
-db.categorias.insertOne({ nombre: "HERBICIDAS", img: "imgs/herbicidas.jpg" });
-db.categorias.insertOne({ nombre: "ADHERENTES", img: "imgs/adherentes.jpg" });
+db.categorias.insertOne({ nombre_categoria: "SEMILLAS", direccion_img: "imgs/semillas.jpg" });
+db.categorias.insertOne({ nombre_categoria: "FERTILIZANTES", direccion_img: "imgs/fertilizantes.jpg" });
+db.categorias.insertOne({ nombre_categoria: "HERBICIDAS", direccion_img: "imgs/herbicidas.jpg" });
+db.categorias.insertOne({ nombre_categoria: "ADHERENTES",  direccion_img: "imgs/adherentes.jpg" });
+
 
 db.marcas.insertOne({ nombre: "BAYER", img: "imgs/bayer.jpg" });
 db.marcas.insertOne({ nombre: "SYNGENTA", img: "imgs/sygenta.jpg" });
